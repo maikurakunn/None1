@@ -1,22 +1,21 @@
-/* 全体のスタイル */
+/* 全体スタイル */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #f0f8ff;
   color: #333;
 }
 
 /* ヘッダー */
 h1 {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 20px;
+  font-size: 2rem;
   color: #2c3e50;
-  font-size: 2.5rem;
-  font-weight: bold;
 }
 
-/* メインエリア */
+/* mainクラスのスタイル */
 .main {
   display: flex;
   flex-direction: column;
@@ -24,58 +23,57 @@ h1 {
   justify-content: center;
   margin: 2rem auto;
   max-width: 600px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-/* 入力方向ラベル */
+/* directionクラスのスタイル */
 .direction {
-  margin-bottom: 1rem;
-  text-align: center;
+  margin-bottom: 20px;
   font-size: 1rem;
   color: #7f8c8d;
 }
 
-/* 入力エリアと画像 */
+/* chat-areaクラス */
 .chat-area {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .bio img {
   border-radius: 50%;
-  margin-right: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* speech-bubblesクラス */
 .speech-bubbles textarea {
   width: 100%;
   max-width: 400px;
   height: 80px;
+  padding: 10px;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 0.5rem;
-  font-size: 1rem;
+  border-radius: 5px;
   resize: none;
+  font-size: 1rem;
 }
 
-/* ボトムエリア */
+/* bottom-areaクラス */
 .bottom-area {
-  margin-top: 1.5rem;
+  margin-top: 20px;
 }
 
 button {
   background-color: #3498db;
   color: white;
   border: none;
-  border-radius: 4px;
-  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
